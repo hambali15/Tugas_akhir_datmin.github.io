@@ -40,6 +40,7 @@ body {
     background-image: url(computer.jpg);
     width: 50%;
     height: 100%;
+    margin-right: 0;
     background-size: cover;
     background-position: center;
 }

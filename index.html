@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sistem Pengambil Keputusan</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <!-- Identitas -->
@@ -19,12 +20,12 @@
 
         <!-- Hero -->
         <section class="header">
-            <h1 class="judul">
+            <h1 class="judul" data-aos="zoom-out">
                 <span>Selamat Datang</span> <br />
                 Pada Sistem Pengambilan Keputusan<br />Pembelian Komputer
                 <div class="batas"></div>
             </h1>
-            <div class="bg-right">
+            <div class="bg-right" data-aos="fade-up">
                 <div class="transparant"></div>
             </div>
         </section>
@@ -159,7 +160,13 @@
             </div>
         </section>
         <!-- Akhir dari program -->
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            AOS.init({
+                duration: 1000,
+            });
+        </script>
         <script src="script.js"></script>
     </body>
 </html>
