@@ -31,6 +31,7 @@ body {
 /* Hero */
 .header {
     height: 100vh;
+    width: 100vw;
     padding-top: 1.8rem;
     display: flex;
     flex-direction: row;
@@ -130,6 +131,23 @@ button:active {
 .deskripsi {
     margin-top: 3rem;
     text-align: center;
+}
+
+.program table {
+    margin: 2em auto;
+}
+.program table,
+.program table tr,
+.program table tr th,
+.program table tr td {
+    border: 3px solid rgba(255, 0, 0, 0.61);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.program table tr th,
+.program table tr td {
+    padding: 1.4em;
 }
 
 .finishing {

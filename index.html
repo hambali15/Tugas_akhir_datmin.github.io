@@ -20,12 +20,12 @@
 
         <!-- Hero -->
         <section class="header">
-            <h1 class="judul" data-aos="zoom-out">
+            <h1 class="judul">
                 <span>Selamat Datang</span> <br />
                 Pada Sistem Pengambilan Keputusan<br />Pembelian Komputer
                 <div class="batas"></div>
             </h1>
-            <div class="bg-right" data-aos="fade-up">
+            <div class="bg-right">
                 <div class="transparant"></div>
             </div>
         </section>
@@ -33,12 +33,12 @@
 
         <!-- Data Set -->
         <section class="dataSet" id="dataSet">
-            <h1>
+            <h1 data-aos="fade-right">
                 <span>Data Set</span><br />
                 Keputusan Pembelian Komputer
                 <div class="batas"></div>
             </h1>
-            <table>
+            <table data-aos="flip-right" data-aos-delay="500">
                 <tr>
                     <th>AGE</th>
                     <th>INCOME</th>
@@ -150,11 +150,25 @@
 
         <!-- Menjalankan program -->
         <section class="program">
-            <button id="mulai">Start</button>
+            <button id="mulai" data-aos="zoom-in-up">Start</button>
+            <table data-aos="flip-down" data-aos-delay="500">
+                <tr>
+                    <th>Age</th>
+                    <th>Income</th>
+                    <th>Student</th>
+                    <th>Credit Rating</th>
+                </tr>
+                <tr>
+                    <td id="age"></td>
+                    <td id="income"></td>
+                    <td id="student"></td>
+                    <td id="credit"></td>
+                </tr>
+            </table>
             <h2 class="deskripsi">Hasil dari Keputusan tersebut ialah :</h2>
             <div class="finishing">
                 <div id="hasil"></div>
-                <div class="spinner">
+                <div class="spinner" data-aos="zoom-out-down" data-aos-delay="1000">
                     <div class="spinner1"></div>
                 </div>
             </div>

@@ -77,6 +77,16 @@ function handleClick() {
         }
     }
 
+    // Tampilkan di website
+    const tampilAge = document.getElementById("age");
+    tampilAge.innerHTML = age;
+    const tampilIncome = document.getElementById("income");
+    tampilIncome.innerHTML = income;
+    const tampilStudent = document.getElementById("student");
+    tampilStudent.innerHTML = student;
+    const tampilCredit = document.getElementById("credit");
+    tampilCredit.innerHTML = credit_rating;
+
     // Terjadi proses algoritma decision tree menggunakan pengkondisian
     let hasil;
     if (age <= 30) {
@@ -108,6 +118,7 @@ function handleClick() {
     }
 
     // Tampilkan hasil kedalam html
+
     const tampilHasil = document.getElementById("hasil");
     tampilHasil.innerHTML = hasil;
 }
